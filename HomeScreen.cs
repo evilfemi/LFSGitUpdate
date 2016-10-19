@@ -10,6 +10,7 @@ namespace FileIOApplication
       {
          FileStream F = new FileStream("test.dat", FileMode.OpenOrCreate, FileAccess.ReadWrite);
          for (int i = 1; i <= 20; i++)
+                //Scott Storch testing
          {
             F.WriteByte((byte)i);
          }
