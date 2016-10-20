@@ -63,6 +63,7 @@ public class HomeScreen extends AbstractScreen {
 		return this;
 	}
 	
+//This should click sync
 	public HomeScreen clickSync() throws InterruptedException{
 		region = app.focusedWindow();
 		region = Region.create(1095, 225, 168, 30);
